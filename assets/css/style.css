@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sen&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.bg-img {
+    background-image: url(/image/Frame\ 7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    max-width: 607px;
+    margin: 0 auto;
+    font-family: "Oswald", serif;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 118.56px;
+    text-align: center;
+    color: white;
+}
+
+.para {
+    font-family: "Oswald", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: center;
+    color: white;
+}
+
+.btn {
+    font-family: "DM Sans", serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 29.64px;
+    text-align: center;
+    border: 0px;
+    padding: 14px 27px 14px 27px;
+    gap: 10px;
+    border-radius: 5.04px;
+    color: #070D37;
+    background: #39C6FD;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.mt-68 {
+    margin-top: 68px;
+}
+
+.guid {
+    display: flex;
+    color: white;
+    font-family: "DM Sans", serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23.71px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-item {
+    align-items: center;
+}
+
+.justify-content-space {
+    justify-content: space-between;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.gap-18 {
+    gap: 18px;
+}
+
+.mt-166 {
+    margin-top: 166px;
+}
+
+.gap-53 {
+    gap: 53px;
+}
+
+.btn-1 {
+    color: #070D37;
+    background: #39C6FD;
+    font-family: "DM Sans", serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23.71px;
+    text-align: right;
+    border: 0;
+    border-radius: 3.4px;
+    padding: 8px 20px 8px 20px;
+}
+
+.btn-2 {
+    font-family: "DM Sans", serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23.71px;
+    text-align: center;
+    color: #39C6FD;
+    background: #070D37;
+    border: 1px solid #39C6FD;
+    border-radius: 4px;
+    padding: 8px 20px 8px 20px;
+
+}
+
+.rest {
+    font-family: "DM Sans", serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23.71px;
+    text-align: center;
+    color: #39C6FD;
+}
+
+.item-center {
+    text-align: center;
+    display: flex;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 48px 0px;
+    align-items: center;
+    background-color: #070D37;
+}
+
+.footer-text {
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    max-width: 810px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 24.79px 0px 52.94px;
+    color: white;
+}
+
+.footer-links {
+    font-family: "Oswald", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.71px;
+    display: flex;
+    gap: 63.26px;
+    margin-bottom: 59px;
+}
+
+.footer-link {
+    color: white;
+    font-family: "Oswald", serif;
+}
+
+.footer-line {
+    width: 100%;
+    border-top: 1px solid #39C6FD;
+}
+
+.bottom-text {
+    font-family: "Open Sans", serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.34px;
+    color: white;
+}
+
+.mt-23 {
+    margin-top: 23px;
+}
