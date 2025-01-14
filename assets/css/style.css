@@ -344,6 +344,12 @@ section {
     right: 41px;
 }
 
+.card-2{
+    position: absolute;
+    right: -0%;
+    bottom: -393%;
+}
+
 .gap-30 {
     gap: 30px;
 }
