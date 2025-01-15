@@ -212,6 +212,12 @@ section {
     display: flex;
 }
 
+.layer {
+    bottom: -1%;
+    position: absolute;
+    /* z-index: 0; */
+}
+
 .heading-1 {
     font-family: "Oswald", serif;
     font-size: 48px;
@@ -239,12 +245,6 @@ section {
 
 .mt-51 {
     margin-top: 51px;
-}
-
-.layer {
-    bottom: -18%;
-    position: absolute;
-    /* z-index: 1; */
 }
 
 .mt-63 {
@@ -381,7 +381,7 @@ section {
 
 .card-3 {
     position: absolute;
-    left: -5%;
+    left: 0%;
     top: -15%;
 }
 
@@ -403,6 +403,12 @@ section {
 
 .mt-353 {
     margin-top: 353px;
+}
+
+.bg-img-1{
+    background-image: url(/image/wave.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .join-now {
@@ -475,6 +481,12 @@ section {
     margin: 0 auto;
     padding: 24.79px 0px 52.94px;
     color: white;
+}
+
+.bg-shadow-1{
+    background-image: url(/image/footer-layer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .footer-links {
