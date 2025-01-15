@@ -49,6 +49,10 @@ section {
     /* min-height: 100vh; */
 }
 
+.img-5{
+    border: none !important;
+}
+
 .bg-img {
     background-image: url(/image/Frame\ 7.png);
     background-repeat: no-repeat;
@@ -213,7 +217,7 @@ section {
 }
 
 .layer {
-    bottom: -1%;
+    bottom: -2%;
     position: absolute;
     /* z-index: 0; */
 }
@@ -229,7 +233,7 @@ section {
 
 .para-2 {
     font-family: "Open Sans", serif;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 25.15px;
     text-align: left;
@@ -239,7 +243,7 @@ section {
 
 .card-1 {
     position: absolute;
-    top: -97%;
+    top: -90%;
     right: -0%;
 }
 
@@ -522,7 +526,7 @@ section {
 }
 
 @media (max-width: 575.98px) {
-    .heading {
+    .heading-1 {
         font-size: 60px;
         line-height: normal;
     }
