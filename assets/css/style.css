@@ -174,6 +174,11 @@ section {
     padding: 8px 20px 8px 20px;
 }
 
+.btn-1:hover {
+    color: #070D37;
+    background: #116586;
+}
+
 .btn-2 {
     font-family: "DM Sans", serif;
     font-size: 16px;
@@ -186,6 +191,11 @@ section {
     border-radius: 4px;
     padding: 8px 20px 8px 20px;
 
+}
+
+.btn-2:hover {
+    color: #39C6FD;
+    background: #0d1452;
 }
 
 .rest {
@@ -213,7 +223,7 @@ section {
 
 .para-2 {
     font-family: "Open Sans", serif;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 400;
     line-height: 25.15px;
     text-align: left;
@@ -262,6 +272,23 @@ section {
     min-height: 100vh;
 }
 
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 1rem;
+    /* color: var(--bs-accordion-btn-color);
+    text-align: left;
+    background-color: var(--bs-accordion-btn-bg);
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: var(--bs-accordion-transition);
+    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x); */
+}
+
+
 .head {
     max-width: 632px;
     margin: 0 auto;
@@ -284,8 +311,8 @@ section {
     color: white;
 }
 
-.img {
-    width: 494px;
+.mt-198 {
+    margin-top: 198px;
 }
 
 .slick-track {
@@ -302,27 +329,60 @@ section {
     height: 461px;
 }
 
+.accordion-item {
+    width: 946px;
+    border: none !important;
+    border-bottom: 2px solid #39C6FD !important;
+    background-color: transparent !important;
+}
+
+.accordion-button {
+    box-shadow: none !important;
+}
+
 .faqs {
     font-family: "Oswald", serif;
     font-size: 48px;
     font-weight: 400;
     line-height: 71.14px;
     text-align: center;
-   color: white;
-
+    color: white;
 }
 
-/* .container-3{
-    max-width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 12px;
-    padding-right: 12px;
-} */
-.card-3{
-    position: absolute;
-    left: 0%;
 
+.accordion-button.Collapsed::after {
+    color: #FFFFFF !important;
+    background: #FFFFFF !important;
+}
+
+.accordion-body {
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
+    color: white !important;
+    background-color: #070D37 !important;
+}
+
+.accordion-button {
+    font-family: "Oswald", serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 29.64px;
+    text-align: left;
+    color: white !important;
+    background-color: #070D37 !important;
+}
+
+.accordion-button.Collapsed {
+    background: #070D37 !important;
+}
+
+.card-3 {
+    position: absolute;
+    left: -5%;
+    top: -15%;
 }
 
 .container-1 {
@@ -339,6 +399,10 @@ section {
 
 .mt-65 {
     margin-top: 65px;
+}
+
+.mt-353 {
+    margin-top: 353px;
 }
 
 .join-now {
@@ -370,7 +434,12 @@ section {
 .card-2 {
     position: absolute;
     right: -0%;
-    bottom: -417%;
+    top: 36%;
+}
+
+.accordion {
+    max-width: 946px;
+    margin: 0 auto;
 }
 
 .gap-30 {
@@ -387,7 +456,7 @@ section {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 48px 0px;
+    padding: 48px;
     align-items: center;
     background-color: #070D37;
 }
@@ -440,10 +509,7 @@ section {
     margin-top: 23px;
 }
 
-
-
-
-@media (max-width:575.98px) {
+@media (max-width: 575.98px) {
     .heading {
         font-size: 60px;
         line-height: normal;
