@@ -208,7 +208,7 @@ section {
 
 
 .gap-18 {
-    gap: 18px;
+    gap: 18px !important;
 }
 
 .mt-166 {
@@ -342,7 +342,7 @@ section {
 }
 
 .gap-53 {
-    gap: 53px;
+    gap: 53px !important;
 }
 
 .bg-shadow {
@@ -372,6 +372,10 @@ section {
 
 .pr-14 {
     padding-right: 14px;
+}
+
+.mt-53{
+    margin-top: 53px;
 }
 
 
